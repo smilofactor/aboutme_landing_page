@@ -1,0 +1,124 @@
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  margin: 0 .25em;
+  color: #047878;
+  text-shadow: 2px 2px 2px #FFB733;
+}
+
+a:hover {
+  text-shadow: 4px 4px 4px #ffb733
+}
+
+a:active {
+  color: #000ff;
+}
+
+a:visited {
+  color: #7F1637;
+}
+
+.masthead-intro,
+.masthead-heading,
+.content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6em 0;
+  background-image: url('http://oi59.tinypic.com/axllax.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #047878;
+  box-shadow: 2px 2px 1px #047878;
+  -moz-box-shadow: 2px 2px 1px #047878;
+  -webkit-box-shadow: 2px 2px 1px #047878;
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: 'Gentium Book Basic' Georgia, serif;
+  font-size: 2em;
+  color: #C22121;
+  text-shadow: 6px 6px 10px #047878;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #7F1637;
+  text-shadow: 6px 6px 10px #FFB733;
+}
+
+.introduction-section,
+.location-section,
+.question-section
+{
+  max-width: 30em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.content-footer {
+  background: #F57336;
+  height: 10em;
+  padding-top: 4em;
+  padding-bottom: 3em;
+  margin-top: 5em;
+  box-shadow: 2px 2px 1px #a33d35;
+  -moz-box-shadow: 2px 2px 1px #a33d35;
+  -webkit-box-shadow: 2px 2px 1px #a33d35;
+}
+
+.content-footer > p {
+  color: white;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.introduction-section > p,
+.location > p,
+.content-footer > p {
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+.question-section > h2 {
+  font-family: 'Gentium Book Basic', Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #047878;
+}
+
+.question-section > h3 {
+  font-family: 'Gentium Book Basic', Georgia, serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #047878;
+}
+
+section > h1 {
+  margin-top: 2em;
+  font-size: 2.5em;
+}
